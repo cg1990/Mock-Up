@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
+    <meta name="description" content="Beispiel-Design Nr. 08 von SelfHTML.org" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+	<title>P2Endure Marketplace</title>
+</head>
+<body>
+
+<header>
+    <h1><a id="logo" title="zurück zur Startseite!" href="index.html"></h1>
+    <a id="navlink" title="zum Navigationsmenü" href="#navigation">☰</a>
+</header>
+
+
+<main role="main">
+<article>
+	<h1>About</h1>
+    P2Endure deploys the innovative “Comfort Eye” system developed by consortium partner UNIVPM.
+  Comfort Eye is a low-cost sensing device (about €200 for the prototype version with off-the-shelf
+  components), which allows real-time monitoring of indoor thermal comfort. It is based on a
+  microcontroller and a set of sensors and embedded algorithms to derive PMV index for multiple
+  subjects in different positions of the room.
+  <h2>Advantage</h2>
+  The advantages of Comfort Eye are non-invasive
+  multipoint measurement, interoperability and ease of integration and installation. The technician
+  installs the scanning system on the ceiling of the room and connects it to the control unit. The system
+  scans continuously all the surfaces to measure their average temperatures and sends the results back to
+  the control unit. The software developed in the control unit applies all the embedded algorithms and
+  calculations in agreement with ISO standards to derive real-time PMV (and so the thermal sensation)
+  of the user/s within the indoor environment and can provide these data as output (to other devices, BMS,
+  etc.). The system is flexible, from both hardware and software side, so to allow the development of
+  customized solutions for the different applications and scenarios.
+  <h2>Performance</h2>
+  The system is able to perform the measurements and send data to other devices through different communication
+  protocols (e.g. Bluetooth, ZigBee, Wi-Fi, etc.). For example, the user can communicate with the tool through its
+  smartphone and a simple graphical user interface (GUI) developed for mobile devices, or through customized
+  dashboards connected with the data stored in a MySQL database. The device consists of 3 parts:
+  - The IR scanning system, which has to be fixed on the ceiling of the room and allows the continuous
+  measurement of surface temperatures;
+  - The control unit, which manages the data flow between the sensors and from/to the user interface and performs
+  the calculation of thermal comfort for multiple positions;
+  - Additional Android device or PC (optional), with dedicated GUI, to communicate with the system (input
+  management, data storing, historical data analysis etc.).
+  For a long-time monitoring and remote control purposes, an SQL database connection has been developed. It
+  allows the remote monitoring of the room conditions and the interaction with the system. This could allow the
+  application of Comfort Eye in several contexts and scenarios, e.g. for a better microclimate control by means of
+  BMSs and HVACs, without the need of a direct interaction between the systems.
+  In summary, the embedded algorithms allow the provision of continuous maps or discretised distribution of thermal
+  comfort index and mean radiant temperatures. The interaction with the common HVAC system or building
+  management system can be done easily through TCP/IP, RS serial and other home automation protocols. On the
+  Associated with document Ref. Ares(2016)3839512 - 22/07/2016
+  723391 P2Endure – Part B – page 12
+  other hand, the interaction with the user (the person standing in the room) and the technician can be done through
+  an Android app via a Bluetooth connection.
+
+</article>
+
+
+</main>
+
+<nav id="navigation">
+	<ul>
+		<li><a href="index.html">Equipments</a></li>
+		<li><a href="comforteye.html"> About Us</a></li>
+		<li><a href="comforteye.html"> Contact</a></li>
+		<li><a href="index.html">Back</a></li>
+	</ul>
+</nav>
+
+
+<footer>
+	<section class="textf">
+   		<h2>Textual Content</h2>
+    	<p>
+
+    	</p>
+	</section>
+
+	<section class="browse">
+		<h2>Browse</h2>
+	    <ul class="footer_nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="1-unterseite.html">Services</a></li>
+			<li><a href="1-unterseite.html">Blog</a></li>
+			<li><a href="1-unterseite.html">Products</a></li>
+			<li><a href="1-unterseite.html">Contact Us</a></li>
+		</ul>
+	</section>
+
+	<section class="textcon">
+		<h2>Contact Us</h2>
+	    <p>
+	    	Email: info@gmail.com<br>
+			<br>
+			Phone: 000-000-00 <br>
+			<br>
+
+		</p>
+    </p>
+</footer>
+
+</body>
+</html>
